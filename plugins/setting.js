@@ -83,7 +83,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 > *𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐍𝐈𝐌𝐀𝐇 𝐌𝐃*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/LhX6KHW7/SulaMd.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/ZzwhmX01/SulaMd.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
